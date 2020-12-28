@@ -1,0 +1,46 @@
+.footer{
+    position: relative;
+    height: 52px;
+    background-color: #141414;
+    min-width: 1000px;
+    min-height: 52px;
+    float: bottom;
+}
+
+
+.footer .author{
+    color:white;
+    position: relative;
+    float: right;
+    right: 25px;
+    top: 13px;
+    font-size: x-large;
+}
+
+
+.footer  a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    margin: 0;
+}
+
+.footer  a:hover{
+    color: yellow;
+}
+
+.footer .title{
+    margin-left: 25px;
+    float: left;
+    margin-top: 13px;
+    font-family: russian_empire, sans-serif;
+}
+
+
+.lenin{
+     height: 10px;
+     width: 10px;
+     background-color: #141414;
+     position: relative;
+     float: right;
+}

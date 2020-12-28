@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "play_black";
+    src: local("play"), url("../../font/PlayfairDisplaySC-Black.ttf") format("truetype"); ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "play_black_italic";
+    src: local("play"), url("../../font/PlayfairDisplaySC-Blackitalic.ttf") format("truetype"); ;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "play_bold";
+    src: local("play"), url("../../font/PlayfairDisplaySC-Bold.ttf") format("truetype"); ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "play_bold_italic";
+    src: local("play"), url("../../font/PlayfairDisplaySC-BOlditalic.ttf") format("truetype"); ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "play_italic";
+    src: local("play"), url("../../font/PlayfairDisplaySC-Italic.ttf") format("truetype"); ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "play_regular";
+    src: local("play"), url("../../font/PlayfairDisplaySC-Regular.ttf") format("truetype"); ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "russian_empire";
+    src: local("russian"), url("../../font/russian_empire_font.ttf") format("truetype"); ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "caveat_bold";
+    src: local("caveat"), url("../../font/Caveat-Bold.ttf") format("truetype"); ;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "caveat_regular";
+    src: local("russian"), url("../../font/Caveat-Regular.ttf") format("truetype"); ;
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,145 @@
+
+.wrapper{
+  top: 15px;
+  position: relative;
+  height: 4320px;
+  background-color: #141414;
+}
+
+.wrapper .bg{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transition: 1s ease;
+  max-height: 1080px;
+  background-size: cover;
+}
+
+.wrapper .bg:hover{
+  transform: scale(1.03);
+}
+
+ .article{
+  position: relative;
+  text-align: center;
+  padding-top: 350px;
+}
+
+.article h1{
+  color: white;
+  font-size:4.4em;
+  font-family: play_black ,sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .13em;
+  margin: 0;;
+}
+
+.article h1:after{
+  content: "";
+  background: #fff;
+  height: 4px;
+  margin: 40px auto;
+  width: 152px;
+}
+
+.article p{
+  color: white;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 2.1em;
+  letter-spacing: .09em;
+  line-height: 1.6em;
+}
+
+.article_st_pt_bg{
+  background: url("../../img/30978-st-petersburg.jpg") no-repeat;
+}
+
+.article_one_war{
+  background: url("../../img/war.jpg") no-repeat;
+}
+
+.article_one_war p{
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.article_family{
+  background: url("../../img/nikolay's family.jpg") no-repeat;
+}
+
+.article_narod{
+  background: url("../../img/life.jpg") no-repeat;
+}
+
+.article_narod h1{
+  color: #ae8648;
+}
+
+.article_family h1{
+  color: #8f2626;
+}
+
+.article_family p{
+  color: #8f2626;
+}
+
+.article_family .article h1:after{
+  content: "";
+  background: #8f2626;
+  display: block;
+  height: 4px;
+  margin: 40px auto;
+  width: 152px;
+}
+
+.btn{
+  position: relative;
+  padding: 14px 25px;
+  transition: .2s ease;
+  background-color: #fff;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  color: #ae8648;
+  font-weight: 700;
+  font-size: 1.3em;
+  line-height: 1em;
+  text-align: center;
+  min-width: 160px;
+}
+
+.btn-gold{
+  background-color: #ae8648;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-red{
+  background-color: #8f2626;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-red:hover{
+  background: #ae8648;
+  color: #fff;
+}
+
+.btn-gold:hover{
+  background: #8f2626;
+  color: #fff;
+}
+
+
+.revolution{
+  position: absolute;
+  background: url("../../img/ussr_flag.jpg") no-repeat;
+  background-size: cover;
+  transition:transform 1.5s linear;
+  width: 1920px;
+  height: 4320px;
+  display: none;
+}
